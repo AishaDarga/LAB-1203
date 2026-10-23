@@ -1,0 +1,15 @@
+# Images — shared separately, not in repo
+*.png
+*.jpg
+*.jpeg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Credentials — never commit
+cos-creds.txt
+*.pem
+embed-agent*.json
